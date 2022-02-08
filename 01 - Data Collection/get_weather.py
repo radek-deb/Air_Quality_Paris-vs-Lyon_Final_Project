@@ -7,7 +7,7 @@ import secret
 
 # cities = ["Lisbon", "Warsaw", "Rome"]
 # cities = ["Caen"]
-cities = ["Paris"]
+cities = ["Lyon"]
 
 # years_list = ["2015", "2016", "2017"]
 # # cities = ["Caen", "Lyon", "Marseille"]
@@ -29,7 +29,7 @@ cities = ["Paris"]
 # cities = ["Krakow", "Berlin"]
 # key = secret.key2
 
-years_list = ["2022"]
+years_list = ["2014"]
 # cities = ["Krakow", "Berlin"]
 key = secret.key1
 

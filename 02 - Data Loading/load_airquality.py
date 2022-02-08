@@ -52,7 +52,7 @@ cities = [
     # "Lisbon",
     # "Lyon",
     # "Marseille",
-    "Paris",
+    "Lyon",
     # "Rome",
     # "Warsaw",
 ]
