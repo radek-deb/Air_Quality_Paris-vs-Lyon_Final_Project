@@ -17,10 +17,10 @@ from PIL import Image
 
 
 #### loading data files
-paris = pd.read_csv(r"./data/Paris_for_EDA.csv")
-lyon = pd.read_csv(r"./data/Lyon_for_EDA.csv")
-lyon_2 = pd.read_csv(r"./data/sec2_Lyon.csv")
-paris_2 = pd.read_csv(r"./data/sec2_Paris.csv")
+paris = pd.read_csv(r"data/Paris_for_EDA.csv")
+lyon = pd.read_csv(r"data/Lyon_for_EDA.csv")
+lyon_2 = pd.read_csv(r"data/sec2_Lyon.csv")
+paris_2 = pd.read_csv(r"data/sec2_Paris.csv")
 
 
 #### Setting the layout of the page
@@ -790,7 +790,7 @@ folium.CircleMarker(
 ##############LAYOUT OF THE PAGE
 
 ###Image
-image = Image.open("./Figures/Paris-Lyon.png")
+image = Image.open("Figures/Paris-Lyon.png")
 
 st.image(image, caption="Paris-Lyon", use_column_width=True)
 

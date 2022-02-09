@@ -10,6 +10,7 @@
 	- [Content](#content)
 	- [Project Description](#project-description)
 	- [Workflow](#workflow)
+	- [Deploying to Heroku](#deploying-to-heroku)
 	- [Links](#links)
 
 ## Project Description
@@ -22,14 +23,13 @@ Machine learning in order to predict the airquality on a specific day given the 
 
 ## Workflow
 
-
 1. Building a databese with the historical data on air quality and weather conditions for the selected cities in Europe.
-	1.1. Data Collection:
-	- air pollution data: https://aqicn.org/
-	- weather data: https://weather.visualcrossing.com/
-	1.2. Loading data into the database:
-	- formating of the files
-	- adding data into SQL database
+    1.1. Data Collection:
+    - air pollution data: <https://aqicn.org/>
+    - weather data: <https://weather.visualcrossing.com/>
+    1.2. Loading data into the database:
+    - formating of the files
+    - adding data into SQL database
 2. Data Selection:
    - selection of the data for a specific city (i.e. Paris)
    - wriitng a SQL query and importing the data into Pythob
@@ -43,8 +43,12 @@ Machine learning in order to predict the airquality on a specific day given the 
 8. Creating Dashboard.
 9. Preparing deliverables (readme file, Git-Hub repository, presenation).
 
+## Deploying to Heroku
 
-
+```bash
+heroku git:remote -a air-quality-final-project
+git subtree push --prefix "08 - Streamlit" heroku main
+```
 
 ## Links
 
