@@ -6,4 +6,3 @@ matplotlib
 plotly
 streamlit_folium
 pillow
-warnings
