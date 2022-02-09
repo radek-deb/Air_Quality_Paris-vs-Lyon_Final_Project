@@ -2,12 +2,8 @@ streamlit
 pandas
 numpy
 seaborn
-matplotlib.pyplot
+matplotlib
 plotly
-plotly.offline
-plotly.graph_objs
-plotly.express
-plotly.subplots
 streamlit_folium
 PIL
 warnings
