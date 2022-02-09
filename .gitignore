@@ -152,7 +152,7 @@ cython_debug/
 #.idea/
 
 secret.py
-data/
+rawdata/
 .vscode/
 test/
 Variables_map.xlsx

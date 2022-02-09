@@ -1,19 +1,24 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Final Project | Air Quality
+
 *[Radoslaw Debek]*
 
 *[Data Analytics, Paris, 11.02.2022]*
 
 ## Content
+
 - [Final Project | Air Quality](#final-project--air-quality)
 	- [Content](#content)
 	- [Project Description](#project-description)
 	- [Workflow](#workflow)
-	- [Deploying to Heroku](#deploying-to-heroku)
+	- [01 - Data Collection](#01---data-collection)
+	- [08 - Deploying to Heroku](#08---deploying-to-heroku)
+	- [09 - Deploying to Heroku](#09---deploying-to-heroku)
 	- [Links](#links)
 
 ## Project Description
+
 Air quality forecast in Paris
 
 Business problem: Forecast of air quality in Paris in coming months basing on the historical data (priod from 2014 till the end of 2021).
@@ -43,7 +48,13 @@ Machine learning in order to predict the airquality on a specific day given the 
 8. Creating Dashboard.
 9. Preparing deliverables (readme file, Git-Hub repository, presenation).
 
-## Deploying to Heroku
+## 01 - Data Collection
+
+
+
+## 08 - Deploying to Heroku
+
+## 09 - Deploying to Heroku
 
 ```bash
 heroku git:remote -a air-quality-final-project
@@ -52,7 +63,7 @@ git subtree push --prefix "08 - Streamlit" heroku main
 
 ## Links
 
-[Dashboard])
-[Repository]()
+[Dashboard](https://air-quality-final-project.herokuapp.com/)
+[Repository](https://github.com/radek-deb/Final_Project_Ironhack)
 [Slides]()
 [Trello](https://trello.com/b/vJ5wxT1K/finalprojectradek)
