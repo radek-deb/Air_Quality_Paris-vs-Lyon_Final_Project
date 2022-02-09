@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run "08 - Streamlit/Streamlit_dashboard.py"
+web: sh setup.sh && cd "08 - Streamlit" && streamlit run "Streamlit_dashboard.py"

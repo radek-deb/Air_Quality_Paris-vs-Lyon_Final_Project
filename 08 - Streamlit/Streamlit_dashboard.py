@@ -15,9 +15,6 @@ from streamlit_folium import folium_static
 import folium
 from PIL import Image
 
-import warnings;
-warnings.filterwarnings('ignore')
-py.init_notebook_mode(connected=True)
 
 
 #### loading data files
