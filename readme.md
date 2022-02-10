@@ -9,27 +9,27 @@
 ## Content
 
 - [Final Project | Air Quality Paris vs. Lyon](#final-project--air-quality-paris-vs-lyon)
-	- [Content](#content)
-	- [Project Description](#project-description)
-	- [Workflow](#workflow)
-	- [01 - Data Collection](#01---data-collection)
-		- [Weather](#weather)
-		- [Air Quality](#air-quality)
-	- [02 - Data Loading](#02---data-loading)
-	- [03 - Data Selection](#03---data-selection)
-	- [04 - Data Cleaning](#04---data-cleaning)
-		- [Cleaning for Time Series Analysis and EDA](#cleaning-for-time-series-analysis-and-eda)
-		- [Cleaning for Supervised ML and EDA](#cleaning-for-supervised-ml-and-eda)
-	- [05 - Time Series](#05---time-series)
-	- [06 - Machine Learning](#06---machine-learning)
-		- [Results](#results)
-			- [Paris](#paris)
-			- [Lyon](#lyon)
-	- [07 - EDA](#07---eda)
-	- [08 - Streamlit Dashboard](#08---streamlit-dashboard)
-			- [Deploying to Heroku](#deploying-to-heroku)
-	- [Conclusions](#conclusions)
-	- [Links](#links)
+  - [Content](#content)
+  - [Project Description](#project-description)
+  - [Workflow](#workflow)
+  - [01 - Data Collection](#01---data-collection)
+    - [Weather](#weather)
+    - [Air Quality](#air-quality)
+  - [02 - Data Loading](#02---data-loading)
+  - [03 - Data Selection](#03---data-selection)
+  - [04 - Data Cleaning](#04---data-cleaning)
+    - [Cleaning for Time Series Analysis and EDA](#cleaning-for-time-series-analysis-and-eda)
+    - [Cleaning for Supervised ML and EDA](#cleaning-for-supervised-ml-and-eda)
+  - [05 - Time Series](#05---time-series)
+  - [06 - Machine Learning](#06---machine-learning)
+    - [Results](#results)
+      - [Paris](#paris)
+      - [Lyon](#lyon)
+  - [07 - EDA](#07---eda)
+  - [08 - Streamlit Dashboard](#08---streamlit-dashboard)
+      - [Deploying to Heroku](#deploying-to-heroku)
+  - [Conclusions](#conclusions)
+  - [Links](#links)
 
 ## Project Description
 
@@ -219,7 +219,7 @@ The comparison of different models is presented in the Table below and in the Fi
 | Balanced RF              | 71.8        | 78.5                 | 72.1        |
 | Stacking Estimator       | 69.7        | 74.7                 | 70.3        |
 
-![Paris_CM](./06 - ML/Figures/Paris_cm.png)
+![Paris_CM](06_ML/Figures/Paris_cm.png)
 
 Basing on the obtained results I picked Balanced random Forest as the best model for Paris data, as it has high accuracy and the highest balanced Accuracy. Looking at the confusion matrix, this model correctly classified the highest number of days with bad air quality. Thus, I recommend using this model to predict air quality from weather data in Paris.
 
@@ -234,7 +234,7 @@ The comparison of different models is presented in the Table below and in the Fi
 | Balanced RF              | 76.9        | 79.3                 | 76.7        |
 | Stacking Estimator       | 83.4        | 73.2                 | 83.4        |
 
-![Lyon_CM](./06_ML/Figures/Lyon_cm.png)
+![Lyon_CM](06_ML/Figures/Lyon_cm.png)
 
 The similar case as for Paris can be observed for Lyon. Here the highest balanced accuracy was obtained with Balanced random Forest model. However, the model proposed by TPOT i.e. Stacking Estimator also shows very good results. Therefore, I would recommend one of these two models to predict air quality in Lyon using weather data.
 
@@ -270,7 +270,7 @@ heroku git:remote -a air-quality-final-project
 git subtree push --prefix "08 - Streamlit" heroku main
 ```
 
-![Dashboard](".\08 - Streamlit\Figures\Dashboard.png")
+![Dashboard](08_Streamlit/Figures/Dashboard.png)
 
 *Using : git, heroku*
 
