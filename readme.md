@@ -33,11 +33,11 @@
 
 ## Project Description
 
-Air quality forecast in Paris
+Air quality forecast in Paris and Lyon
 
-Business problem: Forecast of air quality in Paris in coming months basing on the historical data (priod from 2014 till the end of 2021).
+Business problem: Forecast of air quality in Paris and Lyon in coming months basing on the historical data (period from 2014 till the end of 2021).
 
-The two approaches will be used in the project. Time series analysis of 4 pollutants pm2.5, pm10, NO2 and O3.
+The two approaches were used in the project. Time series analysis of 4 pollutants pm2.5, pm10, NO2 and O3.
 Machine learning in order to predict the airquality on a specific day given the weather conditions and month.
 
 ## Workflow
