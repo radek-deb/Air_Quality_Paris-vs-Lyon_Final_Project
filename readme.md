@@ -220,7 +220,6 @@ The comparison of different models is presented in the Table below and in the Fi
 | Stacking Estimator       | 69.7        | 74.7                 | 70.3        |
 
 ![Paris_CM](./06 - ML/Figures/Paris_cm.png)
-![Dashboard](./Figures/Dashboard.png)
 
 Basing on the obtained results I picked Balanced random Forest as the best model for Paris data, as it has high accuracy and the highest balanced Accuracy. Looking at the confusion matrix, this model correctly classified the highest number of days with bad air quality. Thus, I recommend using this model to predict air quality from weather data in Paris.
 
