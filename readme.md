@@ -234,7 +234,7 @@ The comparison of different models is presented in the Table below and in the Fi
 | Balanced RF              | 76.9        | 79.3                 | 76.7        |
 | Stacking Estimator       | 83.4        | 73.2                 | 83.4        |
 
-![Lyon_CM]("./06 - ML/Figures/Lyon_cm.png")
+![Lyon_CM](./06_ML/Figures/Lyon_cm.png)
 
 The similar case as for Paris can be observed for Lyon. Here the highest balanced accuracy was obtained with Balanced random Forest model. However, the model proposed by TPOT i.e. Stacking Estimator also shows very good results. Therefore, I would recommend one of these two models to predict air quality in Lyon using weather data.
 
