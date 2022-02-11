@@ -11,12 +11,12 @@ The data was collected for diffrent european cities. While selecting data for sp
 | Variable | Name  | Unit       | Description                              | Type           | Comment                                                                                                                     |
 |----------|-------|------------|------------------------------------------|----------------|-----------------------------------------------------------------------------------------------------------------------------|
 | datetime | Date  | YYYY-MM-DD | date                                     | datetime64[ns] |                                                                                                                             |
-| pm25     | PM2.5 | µg/m³      | fine particullar matter                  | float64        | Basing on this column target column for ML was established: Air quality: 0 -GOOD (0-50), 1- MODERATE (50-100), 2-BAD (>100) |
-| pm10     | PM10  | µg/m³      | respirable particullar matter            | float64        |                                                                                                                             |
-| o3       | O3    | µg/m³      | Ozone                                    | float64        |                                                                                                                             |
-| no2      | NO2   | µg/m³      | Nitrogen dioxide                         | float64        |                                                                                                                             |
-| so2      | SO2   | µg/m³      | Sulphur Dioxide                          | float64        | Removed as too many values were missing                                                                                     |
-| CO       | CO    | mg/m³      | Carbon Monoxide                          | float64        | Removed as too many values were missing                                                                                     |
+| pm25     | PM2.5 | AQI      | fine particullar matter                  | float64        | Basing on this column target column for ML was established: Air quality: 0 -GOOD (0-50), 1- MODERATE (50-100), 2-BAD (>100) |
+| pm10     | PM10  | AQI      | respirable particullar matter            | float64        |                                                                                                                             |
+| o3       | O3    | AQI      | Ozone                                    | float64        |                                                                                                                             |
+| no2      | NO2   | AQI      | Nitrogen dioxide                         | float64        |                                                                                                                             |
+| so2      | SO2   | AQI      | Sulphur Dioxide                          | float64        | Removed as too many values were missing                                                                                     |
+| CO       | CO    | AQI      | Carbon Monoxide                          | float64        | Removed as too many values were missing                                                                                     |
 | City     | City  | -          | City in which pollutants were registered | object         | Removed as value was the same for all columns                                                                               |
 
 
