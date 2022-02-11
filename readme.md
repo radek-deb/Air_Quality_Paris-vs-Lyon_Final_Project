@@ -289,6 +289,6 @@ git subtree push --prefix "08 - Streamlit" heroku main
 
 [Repository](https://github.com/radek-deb/Air_Quality_Paris-vs-Lyon_Final_Project)
 
-[Slides](https://github.com/radek-deb/Final_Project_Ironhack)
+[Slides](https://docs.google.com/presentation/d/1DTleOnik4Gvj5aSHjEXUCwOwXSTodutb/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
 
 [Trello](https://trello.com/b/vJ5wxT1K/finalprojectradek)
